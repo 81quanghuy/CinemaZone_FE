@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+@layer components {
+  .app {
+    @apply min-h-screen;
+  }
+  
+  .home {
+    @apply p-4;
+  }
+  
+  .not-found {
+    @apply p-4 text-center;
+  }
+} 
